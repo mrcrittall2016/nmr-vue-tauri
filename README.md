@@ -1,4 +1,4 @@
-# nmr_vue
+# NMR Tauri
 
 ## Project setup
 
@@ -9,25 +9,18 @@ npm install
 ### Compiles and hot-reloads for development
 
 ```
-npm run serve
-```
-
-### To run devlopment server within Electron
-
-npm run electron:serve
-
-### Compiles and minifies for production
+npm run tauri:serve
 
 ```
-npm run build
-```
 
-### Customize configuration
+### Build for current op system
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npm run tauri:build
 
-## To build for windows
+### Based on the following docs:
 
-See: https://stackoverflow.com/questions/54679249/build-executable-for-windows-with-vue-cli-plugin-electron-builder-in-linux
+https://tauri.studio/en/
+https://www.smashingmagazine.com/2020/07/tiny-desktop-apps-tauri-vuejs/
 
-I added a separate build script to package.json to enable this
+Use Vue client for Tauri found here:
+https://github.com/tauri-apps/vue-cli-plugin-tauri
